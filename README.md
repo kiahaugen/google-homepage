@@ -1,0 +1,1 @@
+This is my first project. I will attempt to recreate the Google homepage, however, the page does not have to work it just has to look somewhat correct. I will create a reflection of what I did once I complete the project.
