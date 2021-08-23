@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Google</title>
+    <style>
+        .navbar {
+            font-family: arial,sans-serif;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+        }
+        .left-side-link, .right-side-link {
+            margin: 10px;
+        }
+        a {
+            color: #3c4043;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .sign-in {
+            background-color: #3597f3;
+            color: #fff;
+            font-weight: bold;
+            line-height: 28px;
+            padding: 0 12px;
+            border: #3597f3;
+            border-radius: 4px;
+        }
+        .content {
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            min-height:89vh
+        }
+        body {
+            min-height:97vh;
+            margin: 0;
+        }
+        #Google-Search {
+            background-color: #f8f9fa;
+            border: 1px solid #f8f9fa;
+            border-radius: 4px;
+            color: #5F6368;
+            font-family: arial,sans-serif;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            line-height: 27px;
+            height: 36px;
+            min-width: 54px;
+            text-align: center;
+        }
+        #Im-Feeling-Lucky {
+            background-color: #f8f9fa;
+            border: 1px solid #f8f9fa;
+            border-radius: 4px;
+            color: #5F6368;
+            font-family: arial,sans-serif;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            line-height: 27px;
+            height: 36px;
+            min-width: 54px;
+            text-align: center;
+        }
+        form {
+            position: relative;
+            text-align: center;
+        }
+        #logo {
+            position: relative;
+            text-align:center;
+            padding-bottom: 20px;
+        }
+        #search-bar-123 {
+            border-radius: 25px;
+            border: 1px solid #dee0dc;
+            padding: 20px;
+            width: 500px;
+            height: 44px;
+            outline: none;
+            position: relative;
+        }
+        .search-bar {
+            position:relative;
+        }
+        .search-buttons {
+            padding-top: 19px;
+        }
+        .footer {
+            font-family: arial,sans-serif;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            background-color: #f2f2f2;
+            border-top: 1px solid #e4e4e4;
+            line-height: 40px;
+            color: #5f6368;
+            margin: 0;
+            margin-left: -27px;
+        }
+        .footer-left-side-link, .footer-right-side-link {
+            margin: 10px;
+        }
+        </style>
+</head>
+    <body>
+    <div id="viewport">
+    <div id="navbar">
+        <ul class="navbar">
+        <li class="left-side">
+            <a class="left-side-link" href="#">About</a>
+            <a class="left-side-link" href="#">Store</a>
+        </li>
+        <li class="right-side">
+            <a class="right-side-link" href="#">Gmail</a>
+            <a class="right-side-link" href="#">Images</a>
+            <a class="right-side-link" href="#"><button class="sign-in" type="button">Sign in</button></a>
+        </li>
+        </ul>
+    </div>
+
+
+    <div class="content">
+        <div id="logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt= google logo>
+        </div>
+            <form id="search-bar">
+                <input id="search-bar-123" type="search" name="search">
+            </form>
+        <div class="search-buttons">
+            <form>
+                <button id="Google-Search" type="submit" value="Google Search" name="Google Search">Google Search</button>
+                <button id="Im-Feeling-Lucky" type="submit" value="I'm Feeling Lucky" name="I'm Feeling Lucky">I'm Feeling Lucky</button>
+            </form>
+        </div>
+    </div>
+   
+    
+    <footer id="footer">
+        <ul class="footer">
+            <li class="footer-left-side">
+                <a class="footer-left-side-link" href="#">Advertising</a>
+                <a class="footer-left-side-link" href="#">Business</a>
+                <a class="footer-left-side-link" href="#">How Search Works</a>
+            </li>
+            <li class="footer-right-side">
+                <a class="footer-right-side-link" href="#">Privacy</a>
+                <a class="footer-right-side-link" href="#">Terms</a>
+                <a class="footer-right-side-link" href="#">Settings</a>
+            </li>
+            </ul>
+    </footer>
+    </body>
+</html>
